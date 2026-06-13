@@ -3,62 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Janani R - Online Portfolio</title>
+    <title>Janani R - Personal Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- NAVBAR SECTION -->
+    <!-- 1. HEADER SECTION -->
     <header class="navbar">
         <div class="logo">
-            <h1>Online Portfolio</h1>
+            <h1>JANANI R</h1>
             <p>B.Tech Information Technology Student</p>
         </div>
         <nav>
             <ul class="nav-links">
                 <li><a href="#home">HOME</a></li>
-                <li><a href="#about">ABOUT ME</a></li>
-                <li><a href="#services">SERVICES</a></li>
-                <li><a href="#skills">SKILL</a></li>
-                <li><a href="#testimonials">TESTIMONIAL</a></li>
-                <li><a href="#experience">EXPERIENCE</a></li>
-                <li><a href="#works">WORKS</a></li>
-                <li><a href="#blog">BLOG</a></li>
-                <li><a href="#contact">CONTACT US</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- HERO SECTION (Name changed to JANANI R) -->
+    <!-- HERO / HOME SECTION -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <h2 class="hero-name">JANANI R</h2>
-            <p class="hero-description">Hi, I am a passionate First-Year B.Tech Information Technology student. I love exploring new technologies, learning programming, and building creative web projects.</p>
+            <h2 class="hero-name">Hi, I am Janani R</h2>
+            <p class="hero-description">A passionate First-Year B.Tech IT student exploring new technologies, coding, and building creative web projects.</p>
             <a href="#contact" class="btn-primary">Hire Me</a>
         </div>
         <div class="hero-image">
-            <img src="https://picsum.photos/600/800" alt="Janani R Portfolio Hero">
+            <img src="https://picsum.photos/600/800" alt="Janani R Hero Image">
         </div>
     </section>
 
-    <!-- ABOUT ME SECTION (With Janani R Resume Download) -->
+    <!-- 2. ABOUT SECTION -->
     <section id="about" class="about">
-        <div class="about-container">
+        <div class="container">
             <div class="about-image">
-                <img src="https://picsum.photos/400/500" alt="Janani R About Image">
+                <img src="https://picsum.photos/400/500" alt="Janani R Bio Image">
             </div>
             <div class="about-content">
                 <h2 class="section-title">ABOUT ME</h2>
                 <span class="title-line"></span>
-                <h3>I am an Aspiring IT Engineer</h3>
-                <p>I am a first-year B.Tech Information Technology student. I am highly interested in software development, coding, and learning new technical skills to build innovative digital solutions.</p>
-                <!-- Download button setup for Janani R -->
-                <a href="resume.pdf" download="Janani_R_Resume.pdf" class="btn-resume">DOWNLOAD RESUME</a>
+                <h3>Aspiring IT Engineer</h3>
+                <p>I am highly interested in software development, coding, and learning new technical skills to build innovative digital solutions. I love turning ideas into clean, functional websites.</p>
+                
+                <!-- 5. RESUME SECTION -->
+                <div class="resume-block">
+                    <p>Want to know more about my qualifications?</p>
+                    <a href="resume.pdf" download="Janani_R_Resume.pdf" class="btn-resume">DOWNLOAD RESUME (PDF)</a>
+                </div>
             </div>
         </div>
     </section>
 
+    <!-- 3. SKILLS SECTION -->
+    <section id="skills" class="skills">
+        <h2 class="section-title center-text">MY SKILLS</h2>
+        <div class="skills-grid">
+            <div class="skill-card">HTML5 & CSS3</div>
+            <div class="skill-card">Java / Python</div>
+            <div class="skill-card">UI/UX Design</div>
+            <div class="skill-card">Web Development</div>
+        </div>
+    </section>
+
+    <!-- 4. PROJECTS SECTION -->
+    <section id="projects" class="projects">
+        <h2 class="section-title center-text">MY PROJECTS</h2>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <img src="https://picsum.photos/300/200?random=1" alt="Project 1 Image">
+                <div class="project-info">
+                    <h3>Personal Portfolio Website</h3>
+                    <p>A clean, responsive portfolio website built using HTML and CSS to showcase my skills and academic journey.</p>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card">
+                <img src="https://picsum.photos/300/200?random=2" alt="Project 2 Image">
+                <div class="project-info">
+                    <h3>To-Do List App</h3>
+                    <p>A basic web application designed to help users track their daily tasks and improve time management.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <h2 class="section-title center-text">CONTACT ME</h2>
+        <div class="contact-container">
+            <p>Feel free to reach out to me for collaboration or opportunities!</p>
+            <div class="contact-details">
+                <p><strong>Email:</strong> janani.r@example.com</p>
+                <p><strong>Phone:</strong> +91 98765 43210</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. FOOTER -->
+    <footer class="footer">
+        <p>&copy; 2026 Janani R. All Rights Reserved. | Built with HTML & CSS</p>
+    </footer>
+
 </body>
 </html>
-
